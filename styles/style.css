@@ -12,16 +12,41 @@ p {
 
 body {
     background-color: bisque;
+
 }
 
 h1 {
     text-align: center;
 }
 
+.container {
+    display: flex;
+    flex-flow: wrap;
+    align-items: start;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    border: 3px solid red;
+}
+
 aside {
     width: 300px;
+    /* min-height: 100vh; */
+    border: 3px solid blue;
 }
 
 img {
-    width: 500px;
+    width: 100%;
+}
+
+.image-container {
+    max-width: 500px;
+}
+
+.ingredients-container {
+    border: 3px solid purple;
+    /* min-width: 300px; */
+}
+
+.instruction-container {
+    border: 3px solid green;
+    /* min-width: 600px; */
 }
